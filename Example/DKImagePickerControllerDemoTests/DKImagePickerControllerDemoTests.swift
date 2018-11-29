@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import DKImagePickerController
+@testable import FTDKImagePickerController
 
 class DKImagePickerControllerDemoTests: XCTestCase {
     

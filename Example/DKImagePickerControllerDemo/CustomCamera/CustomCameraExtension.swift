@@ -8,7 +8,7 @@
 
 import UIKit
 import MobileCoreServices
-import DKImagePickerController
+import FTDKImagePickerController
 
 open class CustomCameraExtension: DKImageBaseExtension, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     

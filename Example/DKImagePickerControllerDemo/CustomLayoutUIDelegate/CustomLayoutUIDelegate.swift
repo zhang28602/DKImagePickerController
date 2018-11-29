@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import DKImagePickerController
+import FTDKImagePickerController
 
 open class CustomLayoutUIDelegate: DKImagePickerControllerBaseUIDelegate {
     

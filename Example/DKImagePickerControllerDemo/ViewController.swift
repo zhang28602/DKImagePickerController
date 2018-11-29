@@ -9,7 +9,7 @@
 import UIKit
 import Photos
 import AVKit
-import DKImagePickerController
+import FTDKImagePickerController
 
 class ViewController: UIViewController,
     UITableViewDataSource, UITableViewDelegate,
