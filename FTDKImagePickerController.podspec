@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "FTDKImagePickerController"
-  s.version       = "4.1.1"
+  s.version       = "4.1.2"
   s.summary       = "FTDKImagePickerController is a highly customizable, pure-Swift library."
   s.homepage      = "https://github.com/zhang28602/DKImagePickerController"
   s.license       = { :type => "MIT", :file => "LICENSE" }
