@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CA4AC7F2004D280008AFD7D /* DKBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4AC5D2004D280008AFD7D /* DKBaseManager.swift */; };
 		9CA4AC802004D280008AFD7D /* DKImageDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4AC5E2004D280008AFD7D /* DKImageDataManager.swift */; };
 		9CA4AC812004D280008AFD7D /* DKImageGroupDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4AC5F2004D280008AFD7D /* DKImageGroupDataManager.swift */; };
 		9CA4AC822004D280008AFD7D /* DKAsset+Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4AC612004D280008AFD7D /* DKAsset+Export.swift */; };
@@ -36,10 +35,10 @@
 		9CA4AC992004D280008AFD7D /* DKImageExtensionInlineCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4AC7D2004D280008AFD7D /* DKImageExtensionInlineCamera.swift */; };
 		9CA4AC9A2004D280008AFD7D /* DKImageExtensionPhotoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4AC7E2004D280008AFD7D /* DKImageExtensionPhotoEditor.swift */; };
 		9CAD36752003661E003E21C6 /* DKImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CAD36732003661E003E21C6 /* DKImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F83140C421B005AE001382B5 /* DKImageBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83140C321B005AE001382B5 /* DKImageBaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9CA4AC5D2004D280008AFD7D /* DKBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKBaseManager.swift; sourceTree = "<group>"; };
 		9CA4AC5E2004D280008AFD7D /* DKImageDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKImageDataManager.swift; sourceTree = "<group>"; };
 		9CA4AC5F2004D280008AFD7D /* DKImageGroupDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKImageGroupDataManager.swift; sourceTree = "<group>"; };
 		9CA4AC612004D280008AFD7D /* DKAsset+Export.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKAsset+Export.swift"; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		9CAD36702003661E003E21C6 /* DKImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CAD36732003661E003E21C6 /* DKImagePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKImagePickerController.h; sourceTree = "<group>"; };
 		9CAD36742003661E003E21C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83140C321B005AE001382B5 /* DKImageBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKImageBaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 		9CA4AC5C2004D280008AFD7D /* DKImageDataManager */ = {
 			isa = PBXGroup;
 			children = (
-				9CA4AC5D2004D280008AFD7D /* DKBaseManager.swift */,
+				F83140C321B005AE001382B5 /* DKImageBaseManager.swift */,
 				9CA4AC5E2004D280008AFD7D /* DKImageDataManager.swift */,
 				9CA4AC5F2004D280008AFD7D /* DKImageGroupDataManager.swift */,
 				9CA4AC602004D280008AFD7D /* Model */,
@@ -287,10 +287,10 @@
 				9CA4AC972004D280008AFD7D /* DKImageExtensionCamera.swift in Sources */,
 				9CA4AC942004D280008AFD7D /* DKAssetGroupGridLayout.swift in Sources */,
 				9CA4AC802004D280008AFD7D /* DKImageDataManager.swift in Sources */,
-				9CA4AC7F2004D280008AFD7D /* DKBaseManager.swift in Sources */,
 				9CA4AC852004D280008AFD7D /* DKAssetGroup.swift in Sources */,
 				9CA4AC932004D280008AFD7D /* DKAssetGroupDetailVC.swift in Sources */,
 				9CA4AC832004D280008AFD7D /* DKAsset+Fetch.swift in Sources */,
+				F83140C421B005AE001382B5 /* DKImageBaseManager.swift in Sources */,
 				9CA4AC912004D280008AFD7D /* DKAssetGroupDetailImageCell.swift in Sources */,
 				9CA4AC962004D280008AFD7D /* DKPermissionView.swift in Sources */,
 				9CA4AC822004D280008AFD7D /* DKAsset+Export.swift in Sources */,

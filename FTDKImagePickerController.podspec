@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
 
   s.subspec 'Core' do |core|
-    core.dependency 'DKImagePickerController/ImageDataManager'
-    core.dependency 'DKImagePickerController/Resource'
+    core.dependency 'FTDKImagePickerController/ImageDataManager'
+    core.dependency 'FTDKImagePickerController/Resource'
 
     core.frameworks    = "Foundation", "UIKit", "Photos"
 
@@ -26,34 +26,34 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Resource' do |resource|
-    resource.resource_bundle = { "DKImagePickerController" => "Sources/DKImagePickerController/Resource/Resources/*" }
+    resource.resource_bundle = { "FTDKImagePickerController" => "Sources/DKImagePickerController/Resource/Resources/*" }
 
     resource.source_files = "Sources/DKImagePickerController/Resource/DKImagePickerControllerResource.swift"
   end
 
   s.subspec 'PhotoGallery' do |gallery|
-    gallery.dependency 'DKImagePickerController/Core'
+    gallery.dependency 'FTDKImagePickerController/Core'
     gallery.dependency 'DKPhotoGallery'
 
     gallery.source_files = "Sources/Extensions/DKImageExtensionGallery.swift"
   end
 
   s.subspec 'Camera' do |camera|
-    camera.dependency 'DKImagePickerController/Core'
+    camera.dependency 'FTDKImagePickerController/Core'
     camera.dependency 'DKCamera'
 
     camera.source_files = "Sources/Extensions/DKImageExtensionCamera.swift"
   end
 
   s.subspec 'InlineCamera' do |inlineCamera|
-    inlineCamera.dependency 'DKImagePickerController/Core'
+    inlineCamera.dependency 'FTDKImagePickerController/Core'
     inlineCamera.dependency 'DKCamera'
 
     inlineCamera.source_files = "Sources/Extensions/DKImageExtensionInlineCamera.swift"
   end
 
   s.subspec 'PhotoEditor' do |photoEditor|
-    photoEditor.dependency 'DKImagePickerController/Core'
+    photoEditor.dependency 'FTDKImagePickerController/Core'
     photoEditor.dependency 'CLImageEditor', '0.2.0'
 
     photoEditor.source_files = "Sources/Extensions/DKImageExtensionPhotoEditor.swift"

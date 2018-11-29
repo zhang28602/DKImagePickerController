@@ -74,10 +74,10 @@ public class DKImageExtensionController: NSObject {
     
     private static let checkDefaultExtensions: Void = {
         let defaultClasses = [
-            "DKImagePickerController.DKImageExtensionGallery",
-            "DKImagePickerController.DKImageExtensionCamera",
-            "DKImagePickerController.DKImageExtensionInlineCamera",
-            "DKImagePickerController.DKImageExtensionPhotoEditor",
+            "FTDKImagePickerController.DKImageExtensionGallery",
+            "FTDKImagePickerController.DKImageExtensionCamera",
+            "FTDKImagePickerController.DKImageExtensionInlineCamera",
+            "FTDKImagePickerController.DKImageExtensionPhotoEditor",
         ]
         
         for defaultClass in defaultClasses {
