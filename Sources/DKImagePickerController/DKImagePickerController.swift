@@ -139,8 +139,8 @@ open class DKImagePickerController: UINavigationController, DKImageBaseManagerOb
         return DKImageGroupDataManager(configuration: configuration)
     }()
     
-    public private(set) var selectedAssetIdentifiers = [String]() // DKAsset.localIdentifier
-    private var assets = [String : DKAsset]() // DKAsset.localIdentifier : DKAsset
+    @objc public private(set) var selectedAssetIdentifiers = [String]() // DKAsset.localIdentifier
+    @objc private var assets = [String : DKAsset]() // DKAsset.localIdentifier : DKAsset
     
     private lazy var extensionController: DKImageExtensionController! = {
         return DKImageExtensionController(imagePickerController: self)
@@ -619,7 +619,7 @@ open class DKImagePickerController: UINavigationController, DKImageBaseManagerOb
         return self.assets[asset.localIdentifier] != nil
     }
     
-    private var internalSelectedAssetsCache: [DKAsset]?
+    @objc private var internalSelectedAssetsCache: [DKAsset]?
     @objc public var selectedAssets: [DKAsset] {
         get {
             if self.internalSelectedAssetsCache != nil {
